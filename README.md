@@ -9,8 +9,11 @@ The **data** folder contains six csv files: five files contain data from five di
 **Final_2020.csv, Final_2021.csv and Final_2022.csv files contain the data from the pre-LLM era and have the following columns:**
 
 Title: title of the research paper.
+
 Abstract: summary of the paper.
+
 Paragraph: excerpt from the paper.
+
 Context_Inconsistency: "positive" if inconsistency exists; otherwise "negative". (The column name was derived by renaming the "Majority_Label" for better understanding.)
 
 
