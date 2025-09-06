@@ -20,16 +20,23 @@ Context_Inconsistency: "positive" if inconsistency exists; otherwise "negative".
 **Final_2023.csv and Final_2024.csv files contain the data from the post-LLM era and have the following columns:**
 
 Title: title of the research paper.
+
 Abstract: summary of the paper.
+
 Paragraph: excerpt from the paper.
-Context_Inconsistency: "positive" if inconsistency exists; otherwise "negative".
+
+Context_Inconsistency: "positive" if inconsistency exists; otherwise "negative". (The column name was derived by renaming the "Majority_Label" for better understanding.)
+
 AI_Hum: Inconsistent paragraphs are labeled either AI-generated or Human-written. 
 
 **Final_for_finetune.csv contains the following columns:**
 
 Title: title of the research paper.
+
 Abstract: summary of the paper.
+
 Paragraph: excerpt from the paper.
+
 Label: "positive" if inconsistency exists; otherwise "negative".
 
 ##Code 
