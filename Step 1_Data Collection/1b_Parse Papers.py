@@ -13,7 +13,7 @@ def parse_pdf_with_science_parse(pdf_path):
     else:
         print(f"Error: {response.status_code}")
         return None
-pdf_directory = "/XXXX/ACL/year2024"
+pdf_directory = "/XXXX/ACL/year2025"
 parsed_data = []
 
 list_of_list=[]
